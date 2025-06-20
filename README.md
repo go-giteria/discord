@@ -1,1 +1,1 @@
-# discord-git
+# Official Giteria Discord Bot
