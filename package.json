@@ -1,0 +1,29 @@
+{
+  "displayName": "Giteria",
+  "license": "AGPL-3.0 license",
+  "description": "Giteria is the primary bot of the Giteria Discord.",
+  "author": "Sky Genesis Enterprise",
+  "email": "contact@skygenesisenterprise.com",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go-giteria/discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/go-giteria/discord/issues"
+  },
+  "homepage": "https://github.com/go-giteria/discord#readme",
+  "dependencies": {
+    "discord.js": "^14.20.0",
+    "dotenv": "^16.5.0"
+  }
+}
